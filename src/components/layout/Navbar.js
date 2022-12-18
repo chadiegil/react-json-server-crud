@@ -2,10 +2,10 @@ import React from "react";
 import { Link, NavLink } from "react-router-dom";
 const Navbar = () => {
   return (
-    <nav className="navbar navbar-expand-lg navbar-dark bg-primary">
+    <nav className="navbar navbar-expand-lg navbar-dark bg-success">
       <div className="container">
-        <Link className="navbar-brand" href="/">
-          Domain Course Final Project
+        <Link className="navbar-brand" to="/">
+          Domain Course Final Projects
         </Link>
         <button
           className="navbar-toggler"
